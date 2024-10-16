@@ -1,0 +1,160 @@
+@import url(' https://fonts.cdnfonts.com/css/ghosthey');
+@import url('https://fonts.cdnfonts.com/css/le-mano-2');
+body, html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 55px;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+header h2{
+    color: rgb(4, 133, 32);
+    font-size: 58px;
+    padding: 20px;
+    font-family: 'ghosthey' , sans-serif ;
+    display: flex;
+    flex-direction: row;
+    text-shadow: 5px 5px 5px rgba(8, 73, 22, 0.637);
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    text-shadow: 4px 4px 4px rgb(4, 82, 21);
+}
+header ul li{
+    margin: 3px 3px 3px 3px;
+    padding: 5px;
+    font-family: 'Le Mano', sans-serif;
+    font-size: 20px;
+    color: rgb(6, 139, 13);
+    font-style: oblique;
+    font-style: italic;
+}
+header a{
+    text-decoration: none;
+}
+.contenedor{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#video-fondo{
+    z-index: -1;
+    position: absolute;
+    margin-top: 60px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contenedor2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.contenedor2 p{
+    font-size: 15em;
+    color: rgb(0, 0, 0);
+    font-family: 'ghosthey' , sans-serif ;
+}
+.muestras{
+    padding: 1px;
+    width: auto;
+    margin: 10px 30px 10px 30px;
+    align-items: center;
+    block-size: 100%;
+    display: flex;
+    justify-content: center;
+}
+.muestras img{
+    margin: 20px 30px 25px 30px;
+    aspect-ratio: 2/2;
+    margin-top: 10px;
+    height: 60%;
+    width: 50%;
+    overflow: hidden;
+    border-radius: 25px;
+    object-fit: cover;
+    border: 1px solid;
+    align-items: center;
+    justify-content: space-around;
+    opacity: 0.8;
+}
+.about-us{
+    padding: 40px;
+    text-align: center;
+    font-family: 'ghosthey' , sans-serif ;
+}
+.about-us h2{
+    margin-top: 10px;
+    margin-right: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: rgb(11, 95, 11);
+    font-style: oblique;
+    font-size: 50px;
+    text-shadow: 6px 6px 6px rgb(13, 19, 13);
+    justify-content: space-around;
+}
+.about{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    font-style: inherit;
+    margin-left: 25px;
+}
+.about p{
+    position: relative;
+    padding: none;
+    color: rgb(185, 185, 185);
+    font-family: 'Le Mano', sans-serif;
+    text-align: center;
+    margin: 20px 40px 20px 10px;
+    font-style: oblique;
+    font-size: 35px;
+}
+.carrusel{
+    border: 1px;
+    padding-left: 5px;
+    padding-bottom: 4%;
+    padding-right: 5px;
+    margin: 10px 10px 10px 10px;
+}
+.carrusel img{
+    aspect-ratio: 65 / 8;
+    object-fit:cover;
+    width: 20%;
+    opacity: 0.5;
+}
+.caja{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+.fondo{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 100%;
+    background-image: url(Imagenes/ghost.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
